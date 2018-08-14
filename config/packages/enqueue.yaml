@@ -1,0 +1,6 @@
+enqueue:
+    transport:
+        default: fs
+        fs:
+            dsn: file:///code/foo
+    client: ~
